@@ -1,16 +1,3 @@
-// import { createRouter, createWebHistory } from 'vue-router'
-
-
-// const routes = [
-  
-// ]
-
-// const router = createRouter({
-//   history: createWebHistory(),
-//   routes
-// })
-
-// export default router
 import { createRouter, createWebHistory } from 'vue-router'
 import PkIndex from '../views/pk/PkIndex'
 import NotFound from '../views/error/NotFound'

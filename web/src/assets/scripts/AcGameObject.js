@@ -13,15 +13,15 @@ export class AcGameObject {
     update(){//除了第一帧每帧执行一次
     }
 
-    on_destory(){//删除前执行
+    on_destroy(){//删除前执行
     }
 
     destroy(){//删除
-        this.on_destory();
+        this.on_destroy();
 
         for(let i in AC_GAME_OBJECTS){
             const obj = AC_GAME_OBJECTS[i];
-            if(obj==this){
+            if(obj===this){
                 AC_GAME_OBJECTS.splice(i);
                 break;
             }
